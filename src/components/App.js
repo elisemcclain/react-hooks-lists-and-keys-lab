@@ -5,7 +5,7 @@ import About from "./About";
 import ProjectList from "./ProjectList";
 import user from "../data/user";
 
-function App() {
+const App = () => {
   return (
     <div>
       <NavBar />
@@ -14,6 +14,6 @@ function App() {
       <ProjectList projects={user.projects} />
     </div>
   );
-}
+};
 
 export default App;
